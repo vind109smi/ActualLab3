@@ -1,0 +1,192 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/styles.css" type="text/css" media="all">
+        <title>CSS Grid Layouts</title>
+    </head>
+    <body>
+        <header id="top" class="tophead">
+            <div class="site-info">
+                <h1 class="websiteheader">&lt;/&gt; Web Dev Summit 2017</h1>
+                <p class="datedescription">Sept 28, 2017</p>
+            </div>
+        </header>
+    
+        <main class="main-section">
+            <style>
+                a:link { color: blue;}
+                a:visited {color: purple;}
+                a:hover {color: lightblue;}
+            </style>
+
+            <div class="join-us">
+                <p class="recruitment">Join our team for a jam-packed day
+                of technical sessions looing at what's new, and what's next,
+                for the web.</p>
+            </div>
+    
+            <div class="learn-more">
+                Learn about dozens of new tools for your sites,
+                from Grid Layout to MVC to Angular
+                <br><br>
+                Go hands on professional engineers to debug issues and 
+                optimize performance. 
+            </div>
+    
+            <div id="navigation" class="navigation-menu">
+                <div class="inside-nav">
+                    <a href=#expect>What to expect</a><br>
+                    <a href=#tracks>Tracks</a><br>
+                    <a href=#agenda>Agenda</a><br>
+                    <a href=#top>Back to Top</a><br>  
+                </div>
+            </div>
+    
+            <div class="codingimage">
+                <img src="codingimg.jpg">
+            </div>
+    
+            <div id ="expect" class="expect">
+                <h2>What to Expect</h2>
+                <h5>25 technical sessions</h5>
+                <p>
+                    The main track is 25 exciting technical sessions, covering
+                    everything from performance, accessibility, testing, and security
+                    using the latest tools and APIs for building Progressive Web Apps.
+                    <br><br>
+                    Add payments and virtual reality to your site, and build modern layouts with new 
+                    CSS features like CSS grids.
+                </p>
+            </div>
+    
+            <div id="tracks" class="track">
+                <h2>Tracks</h2>
+                <p>This year, you can meet with engineers from Microsoft, <br>
+                    Google, Facebook, and Twitter who can help you to solve <br>
+                    real problems today, and build invaluable connections <br>
+                    for the future. 
+                </p>
+            </div>
+    
+            <div class="debuggers">
+                <i class="fa fa-bug" aria-hidden="true"></i>
+                <h2><align="top" style="width:60px;height:60px;">Debug</h2>
+                Struggling with JavaScript bugs? Looking for test guidance?
+                Need help with legacy compatibility? Our engineers are passionate
+                about making the web work for all our mutual customers, and we want
+                to help. Grab a drink at the Debug Bar and we'll take a look!
+            </div>
+    
+            <div class="performance">
+                <i class="fa fa-signal" aria-hidden="true"></i>
+                <h2><align="top" style="width:60px;height:60px;">Performance</h2>
+                Web performance is hard but we can help!
+                Show us your site and we'll apply the same 
+                tools we use to build our advance 
+                applications. Our team has years of 
+                experiencing helping properties around the
+                world identify and remediate performance
+                pitfalls across browsers, so your customers have a better
+                experience on every device.
+                We'll provide actionable recommendations for 
+                your site, and opportunities to follow up with a
+                deeper conversation with our developers.
+    
+            </div>
+    
+            <div class="security">
+                <i class="fa fa-lock" aria-hidden="true"></i>
+                <h2><align="top" style="width:60px;height:60px;">Security</h2>
+                New security tools are here! Learn the new specification and how to apply 
+                them to make your web apps hack proof. Come try out live attack lab and see
+                how your site holds uo. Learn more about building sites which incorporate 
+                authentication and authorization on both client and server and see how 
+                you can get started developing the most secure apps on the planet- 
+                no previous experience required!
+            </div>
+            <div class="and-more">
+                <i class="fa fa-comments" aria-hidden="true"></i>
+                <h2><align="top" style="width:60px;height:60px;">And More</h2>
+                That's just the beginnning! We are partnering with teams across the industry
+                to deliver opportunities for trying out new experiences and learn about new tools.
+                We'll have representatives from GitHub, Visual Studio, TypeScript, the brand-new 
+                .NET Core 2.0 framework, and more.
+            </div>
+    
+            <div id= "agenda" class="agenda-table">
+                <h2>Agenda</h2>
+                <table class= "agenda" >
+                    <div class="tableinfo">
+                    <tr class="data" align="left">
+                        <td>8:00</td>
+                        <td>Registration and breakfast</td>
+                    </tr>
+                    <tr class="data" align="left">
+                        <td>9:00</td>
+                        <td>Keynote</td>
+                    </tr>
+                    <tr class="data" align="left">
+                        <td>10:00-12:00</td>
+                        <td>Sessions</td>
+                     </tr>
+                    <tr class="data" align="left">
+                        <td>12:00-1:00</td>
+                        <td>Lunch</td>
+                    </tr>
+                    <tr class="data" align="left">
+                         <td>1:00-5:00</td>
+                         <td>Sessions</td>
+                    </tr>
+                     <tr class="data" align="left">
+                         <td>5:00-7:00</td>
+                        <td>Party!</td>
+                    </tr>
+                </div>
+                </table>
+            </div>
+
+            <div class="bottom-nav" id="bottomnavigation">
+                <a href="javascript.scrollToItem(document.getElementById('expect'));">What to expect</a><br>
+                <a href="javascript.scrollToItem(document.getElementById('tracks'));">Tracks</a><br>
+                <a href="javascript.scrollToItem(document.getElementById('agenda'));">Agenda</a><br>
+                <a href="javascript.scrollToItem(document.getElementById('top'));">Back to top</a><br>
+            </div>
+        </main>
+
+    <footer class="footer-section" id="footer">
+        <a href="javascript.showHideMenu();">Show Menu</a>
+    </footer>
+
+    <script>
+        function showHideMenu() {
+            var x = document.getElementById('bottomnavigation'); 
+            if (x.style.display != 'block') {
+                x.style.display = 'block';
+            var bottommenu = "<a href=\"javascript:showHideMenu();\">Hide Menu</a>"
+            } else {
+                x.style.display = 'none';
+                document.getElementById("footer").innerHTML = "<a href=\"javascript:showHideMenu();\">Show Menu</a>"
+            }
+            return false;
+        }
+    </script>
+
+    <script>
+        function scrollToItem(item) {
+            var difference = (item.offsetTop-window.scrollY)/8;
+            if (Math.abs(difference)>1) {
+                window.scrollTo(0, (window.scrollY+difference));
+                clearTimeout(window._TO);
+                window._TO=setTimeout(scrollToItem, 30, item);
+            } else {
+                window.scrollTo(0, item.offsetTop);
+            }
+        }
+    </script>
+    
+    </body>
+    </html>
